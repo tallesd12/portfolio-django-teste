@@ -1,0 +1,76 @@
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+    
+}
+
+body{
+    background-color: black;
+    height:100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.links>li>a{
+    font-family: 'Poppins';
+    color: rgb(168, 166, 166);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.links>li>a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+.links>li{
+    display:inline-block;
+    padding: 0 40px
+}
+
+.botao{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border:0;
+    border-radius: 12px;
+    background-color: #c2d1f0;
+}
+
+.logo{
+    display: inline-block;
+    color: white;
+    font-size: 35px;
+    font-family:'Poppins';
+}
+
+section{
+    padding:0 12%;
+    justify-content: space-between;
+    
+}
+section h1{
+    color:white;
+    text-align: center;
+}
+
+section h2{
+    color: white;
+    text-align: center;
+}
