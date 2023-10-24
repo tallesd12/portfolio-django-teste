@@ -1,7 +1,7 @@
 
 
 * {
-    padding: 0px;
+    
     margin: 0px;
     box-sizing: border-box; 
     
@@ -61,16 +61,34 @@ header > .interface{
 }
 
 section{
+    display: flex;
     padding:0 12%;
-    justify-content: space-between;
+    align-items: center;
+    
     
 }
-section h1{
-    color:white;
-    text-align: center;
+.text{
+    padding-left: 40%;
+    color: antiquewhite;
 }
 
-section h2{
-    color: white;
-    text-align: center;
+.text h1{
+    font-size: 80px;
+}
+
+.text h2{
+    font-size: 60px;
+    color: #8A2BE2;
+}
+
+.text p{
+    margin:10px;
+    font-size: 20px;
+}
+
+section img{
+    margin: 30px;
+    width: 250px;
+    height: 700px;
+    
 }
