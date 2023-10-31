@@ -18,7 +18,8 @@ body{
 }
 
 header{
-    padding: 40px 4%;
+    padding: 35px 4%;
+    background-color: #282828;
 }
 
 header > .interface{
@@ -29,7 +30,7 @@ header > .interface{
 
 .links>li>a{
     font-family: 'Poppins';
-    color: rgb(168, 166, 166);
+    color: #DCDCDC;
     text-decoration: none;
     display: inline-block;
 }
@@ -63,12 +64,13 @@ header > .interface{
 section{
     display: flex;
     padding:0 12%;
+    padding-top: 10%;
     align-items: center;
     
     
 }
 .text{
-    padding-left: 40%;
+    padding-left: 15%;
     color: antiquewhite;
 }
 
@@ -79,6 +81,7 @@ section{
 .text h2{
     font-size: 60px;
     color: #8A2BE2;
+    font-family:'Roboto';
 }
 
 .text p{
@@ -87,8 +90,24 @@ section{
 }
 
 section img{
-    margin: 30px;
-    width: 250px;
-    height: 700px;
+    border-radius: 2%;
+}
+
+.link-logos{
+    font-size: 25px;
+    display: flex;
+    padding-left: 25%;
+    padding-top: 10px;
+}
+
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 13px;
     
 }
+
+ul li a{
+    color:white;
+}
+
