@@ -52,6 +52,7 @@ header > .interface{
     border:0;
     border-radius: 12px;
     background-color: #c2d1f0;
+    
 }
 
 .logo{
@@ -64,7 +65,7 @@ header > .interface{
 section{
     display: flex;
     padding:0 12%;
-    padding-top: 10%;
+    padding-top: 8%;
     align-items: center;
     
     
@@ -100,6 +101,7 @@ section img{
     padding-top: 10px;
 }
 
+
 ul li{
     list-style-type:none;
     display: inline-block;
@@ -111,3 +113,21 @@ ul li a{
     color:white;
 }
 
+
+.botao:hover{
+    transform: scale(1.05);
+}
+
+.skills{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills h3{
+    padding:100px;
+    font-size: 50px;
+    color:antiquewhite;
+    font-family: 'Roboto';
+}
