@@ -118,16 +118,31 @@ ul li a{
     transform: scale(1.05);
 }
 
-.skills{
+.skills_body{
     display:flex;
     color:white;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
 }
 
-.skills h3{
+.skills1 h3{
     padding:100px;
     font-size: 50px;
     color:antiquewhite;
     font-family: 'Roboto';
+}
+
+.skills_all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.skill{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
 }
